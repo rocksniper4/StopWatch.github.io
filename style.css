@@ -6,7 +6,7 @@ body {
   background-image: linear-gradient( to right, rgb(110, 110, 111), rgb(93, 90, 90),  rgb(19, 19, 19));
   font-family: 'Times New Roman', Times, serif;
 }
-
+/* container Main */
 .main_div {
   border: 5px solid rgb(200, 255, 0);
   width: 560px;
@@ -20,7 +20,7 @@ body {
   box-shadow: 5px 5px 5px 5px rgb(200, 255, 0);
   background-image: linear-gradient(45deg, #000428, #004e92);
 }
-
+/* heading */
 h1 {
   font-size: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,6 +30,7 @@ h1 {
   color: blanchedalmond;
 }
 
+/* Time Placed */
 #default_time {
   border: 5px solid rgb(200, 255, 0);
   border-radius: 50%;
@@ -45,6 +46,7 @@ h1 {
   font-size: 40px;
 }
 
+/* Button specification */
 button {
   border-radius: 40%;
   font-size: medium;
@@ -53,7 +55,7 @@ button {
   border: 2px solid rgb(200, 255, 0);
   transition: transform 0.3s ease;
 }
-
+/* image inside button */
 .i1,
 .i2,
 .i3,
@@ -62,7 +64,7 @@ button {
   height: 50px;
   padding: 7px;
 }
-
+/*  all buttons with little animation */
 .btn1 {
   background-image: linear-gradient(to right, #02aab0, #00cd18);
   transition: transform 0.3s ease;
@@ -118,6 +120,7 @@ button {
   transform: scale(1.1);
 }
 
+/* reset flag data button */
 .i5 {
   /* position: fixed; */
   width: 25px;
@@ -126,7 +129,7 @@ button {
   margin-left: -1px;
   
 }
-
+/* flag data stored in */
 .break {
   display: flex;
   /* flex-direction: column; Updated to stack elements vertically */
